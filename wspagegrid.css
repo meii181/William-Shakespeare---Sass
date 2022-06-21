@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    body{
+        color: #333;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .header{
+        background-color: rgb(138, 43, 101);
+        height: 3.5rem;
+    }
+
+    .header h1{
+        font-size: 1.8rem;
+        color: white;
+        padding: 0.6rem 1rem;
+    }
+
+    .navbar{
+        background-color: rgb(236, 126, 177);
+        height: 5.9rem;
+    }
+
+     ul{
+        list-style-type: none;
+        
+    }
+
+     li{
+        display: grid;
+        grid-template-rows: 0.35rem 0.35rem 0.35rem 0.35rem;
+        text-align: center;
+        border: 0.02rem solid rgb(68, 41, 64);
+    }
+
+     a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(68, 41, 64);
+        padding: 0.1rem;
+    }
+
+    a:hover{
+        font-family: Arial;
+        color: rgb(253, 238, 251);
+    }
+
+    a:active{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(253, 238, 251)
+    }
+
+    .container2{
+        display: grid;
+        grid-template-rows: repeat (4, 3rem);
+        gap: 2rem;
+    }
+
+        .infotext1{
+            grid-row: 1;
+            padding-top: 1rem;
+            margin: 0 1rem;
+            width: 90%;
+        }
+    
+        .infotext2{
+            grid-row: 2;
+            margin: 0 1rem;
+            width: 90%;
+        }
+    
+        .infotext3{
+            grid-row: 3;
+            margin: 0 1rem;
+            width: 90%;
+        }
+    
+        .infotext4{
+            grid-row: 4;
+            margin: 0 1rem;
+            width: 90%;
+        }
+        .banner{
+            grid-row: 5;
+            font-family:'Times New Roman', Times, serif;
+            line-height: 1.3rem;
+            background-color: rgb(185, 85, 127);
+            color: whitesmoke;
+            border-radius: 1rem;
+            padding: 1rem;
+            width: 90%;
+            margin: 0.8rem 1.2rem;
+        }
+    
+        .banner p{
+            padding-bottom: 1rem;
+        }
+        
+        .footer{
+            background-color:rgb(138, 43, 101);
+            height: 3rem;
+        }
+    
+        .footer p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            text-align: center;
+            color: whitesmoke;
+            padding: 0.9rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 540px) and (max-width: 1024px){
+
+body{
+        color: #333;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .header{
+        background-color: rgb(138, 43, 101);
+        height: 3.5rem;
+    }
+
+    .header h1{
+        font-size: 2.5rem;
+        color: white;
+        padding: 0.4rem 1rem;
+    }
+
+    .navbar{
+        background-color: rgb(236, 126, 177);
+        height: 4.2rem;
+    }
+
+     ul{
+        list-style-type: none;
+        
+    }
+
+     li{
+        font-size: 1.2rem;
+        display: grid;
+        grid-template-rows: repeat(4, 0.5rem);
+        text-align: center;
+        border: 0.02rem solid rgb(68, 41, 64);
+    }
+
+    #home{
+        float: left;
+        width: 50%;
+    }
+
+    #biography{
+        float: right;
+        width: 50%;
+    }
+
+    #works{
+        float: left;
+        width: 50%;
+    }
+
+    #contact{
+        float: right;
+        width: 50%;
+    }
+
+     a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(68, 41, 64);
+        padding: 0.35rem;
+    }
+
+    a:hover{
+        font-family: Arial;
+        color: rgb(253, 238, 251);
+    }
+
+    a:active{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(253, 238, 251)
+    }
+
+    .container2{
+        display: grid;
+        grid-template-rows: repeat (4, 3rem);
+        gap: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+    }
+
+        .infotext1{
+            grid-row: 1;
+            padding-top: 1.5rem;
+            margin: 0 1rem;
+            width: 96%;
+        }
+    
+        .infotext2{
+            grid-row: 2;
+            margin: 0 1rem;
+            width: 96%;
+        }
+    
+        .infotext3{
+            grid-row: 3;
+            margin: 0 1rem;
+            width: 96%;
+        }
+    
+        .infotext4{
+            grid-row: 4;
+            margin: 0 1rem;
+            width: 96%;
+        }
+        .banner{
+            grid-row: 5;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            background-color: rgb(185, 85, 127);
+            color: whitesmoke;
+            border-radius: 1rem;
+            padding: 1rem;
+            width: 90%;
+            margin: 1.5rem 2.4rem;
+        }
+    
+        .banner p{
+            padding-bottom: 1rem;
+        }
+        
+        .footer{
+            background-color:rgb(138, 43, 101);
+            height: 3rem;
+        }
+    
+        .footer p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3rem;
+            text-align: center;
+            color: whitesmoke;
+            padding: 0.7rem;
+
+        }
+    }
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+
+    body{
+        color: #333;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .header{
+        background-color: rgb(138, 43, 101);
+        height: 5rem;
+    }
+
+    .header h1{
+        font-size: 2.5rem;
+        color: white;
+        padding: 1rem 1.2rem;
+    }
+
+    .navbar{
+        background-color: rgb(236, 126, 177);
+        height: 2rem;
+    }
+
+     ul{
+         display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: max-content; /* to positionate the navbar horizontally */
+        gap: 0.5rem;
+        list-style-type: none;
+        
+    }
+
+     li{
+        padding-top: 0.4rem;
+        font-size: 1rem;
+        text-align: center;
+     }
+
+     a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(68, 41, 64);
+        padding: 1rem;
+    }
+
+    a:hover{
+        font-family: Arial;
+        color: rgb(253, 238, 251);
+    }
+
+    a:active{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(253, 238, 251)
+    }
+
+    .container2{
+        display: grid;
+        grid-template-rows: repeat (4, 3rem);
+        gap: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+    }
+
+        .infotext1{
+            grid-row: 1;
+            padding-top: 1.5rem;
+            margin: 0 1rem;
+            width: 96%;
+        }
+    
+        .infotext2{
+            grid-row: 2;
+            margin: 0 1rem;
+            width: 96%;
+        }
+    
+        .infotext3{
+            grid-row: 3;
+            margin: 0 1rem;
+            width: 96%;
+        }
+    
+        .infotext4{
+            grid-row: 4;
+            margin: 0 1rem;
+            width: 96%;
+        }
+
+        .banner{
+            grid-row: 5;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 1rem;
+            line-height: 1.3rem;
+            background-color: rgb(185, 85, 127);
+            color: whitesmoke;
+            border-radius: 1rem;
+            padding: 1rem;
+            width: 40%;
+            margin: 1.5rem 1rem;
+        }
+    
+        .banner p{
+            padding-bottom: 1rem;
+        }
+        
+        .footer{
+            background-color:rgb(138, 43, 101);
+            height: 2.5rem;
+        }
+    
+        .footer p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            text-align: center;
+            color: whitesmoke;
+            padding: 0.7rem;
+
+        }
+    }
+
+    @media only screen and (min-width: 1280px){
+        body{
+            color: #333;
+        }
+    
+        .wrapper {
+            width: 100%;
+        }
+    
+        .container{
+            width: 100%;
+        }
+    
+        .header{
+            background-color: rgb(138, 43, 101);
+            height: 5rem;
+        }
+    
+        .header h1{
+            font-size: 2.7rem;
+            color: white;
+            padding: 0.7rem 1.2rem;
+        }
+    
+        .navbar{
+            background-color: rgb(236, 126, 177);
+            height: 2rem;
+        }
+    
+         ul{
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: max-content; /* to positionate the navbar horizontally */
+            gap: 0.5rem;
+            list-style-type: none;
+            
+        }
+    
+         li{
+            padding-top: 0.3rem;
+            font-size: 1.2rem;
+            text-align: center;
+         }
+    
+         a{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            color: rgb(68, 41, 64);
+            padding: 1rem;
+        }
+    
+        a:hover{
+            font-family: Arial;
+            color: rgb(253, 238, 251);
+        }
+    
+        a:active{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(253, 238, 251)
+        }
+
+        
+
+        .container2{
+            display: grid;
+            grid-template-columns: 57%;
+            grid-template-rows: repeat(4, 20%);
+            gap: 3rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+        }
+
+        .banner{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 1.2rem;
+            grid-column: 2/4;
+            grid-row: 1/3;
+            line-height: 1.3rem;
+            background-color: rgb(185, 85, 127);
+            color: whitesmoke;
+            border-radius: 1rem;
+            padding: 1rem;
+            width: 85%;
+            height: 70%;
+            margin: 1.5rem 3rem;
+        }
+    
+        .banner p{
+           padding-bottom: 1.5rem;
+           
+        }
+    
+            .infotext1{
+                grid-row: 1;
+                padding: 1.5rem 0;
+                margin: 0 1rem;
+            }
+        
+            .infotext2{
+                grid-row: 2;
+                padding: 1rem 0;
+                margin: 0 1rem;
+            }
+        
+            .infotext3{
+                grid-row: 3;
+                padding: 2rem 0;
+                margin: 0 1rem;
+            }
+        
+            .infotext4{
+                grid-row: 4;
+                padding: 0.5rem 0;
+                margin: 0 1rem;
+            }
+            
+            .footer{
+                background-color:rgb(138, 43, 101);
+                height: 2.5rem;
+            }
+        
+            .footer p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1rem;
+                text-align: center;
+                color: whitesmoke;
+                padding: 0.7rem;
+    
+            }
+    }
